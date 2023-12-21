@@ -85,7 +85,7 @@ class Test_SauceDemo:
         listOfElement = driver.find_elements(By.CLASS_NAME, "inventory_item")
         urunSayisi = len(listOfElement) == 6
         print(len(listOfElement))
-        print(f"BEKLENEN SONUC : {urunSayisi}")
+        print(f"TEST SONUCU : {urunSayisi}")
 
 testClass = Test_SauceDemo()
 testClass.successfull_login()
